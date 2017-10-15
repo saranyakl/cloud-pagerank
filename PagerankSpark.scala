@@ -5,9 +5,6 @@ import org.apache.spark.graphx._
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by takirala on 2/21/2016.
-  */
 object PagerankSpark {
 
   def printTopPages(wikiData: String, masterUrl: String, topC: Int, iters: Int, path: String, sc: SparkContext) {
